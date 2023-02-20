@@ -4,7 +4,7 @@ const $pageviewsText = document.querySelector('.form__pagetext');
 const $form = document.getElementById('form');
 const $switchBg = document.querySelector('.form__switch');
 const $switchCircle = document.querySelector('.form__circle');
-const $submitButton = document.querySelector('.form__submit');
+const $submitButton = document.querySelector('.form__start');
 const prices = [8,12,16,24,36];
 const pageTexts = ['10K pageviews','50K pageviews','100K pageview','500k pageviews','1M pageviews'];
 
@@ -88,3 +88,6 @@ $range.addEventListener('change',(e)=>{
          }
 });
 
+$submitButton.addEventListener('click',(e)=>{
+    $form.submit();
+})
