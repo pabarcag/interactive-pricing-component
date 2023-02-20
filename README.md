@@ -38,8 +38,8 @@ If the visitor switches the toggle to yearly billing, a 25% discount should be a
 
 ### Links
 
-- Solution URL: [Github code](https://github.com/pabarcag/ping-simple-page)
-- Live Site URL: [Live site](https://pabarcag.github.io/ping-simple-page/)
+- Solution URL: [Github code](https://github.com/pabarcag/interactive-pricing-component)
+- Live Site URL: [Live site](https://pabarcag.github.io/interactive-pricing-component/)
 
 
 ## My process
