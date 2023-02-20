@@ -1,0 +1,46 @@
+@use '../mixins/' as f;
+
+body{
+    @include f.flex(flex,column,center,center);
+    background-color: #fff;
+    font-family: var(--ff);
+    background-image: url('/images/bg-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: -50px;
+}
+
+.container{
+    @include f.flex(flex,column,center,center);
+    width: 90%;
+    max-width: 800px;
+    min-width: 420px;
+    margin-top: 4em;
+    gap: 3em;
+}
+
+.titles{
+    position: relative;
+    @include f.flex(flex,column,center,center);
+    gap: 1em;
+    max-width: 80%;
+    text-align: center;
+    &__img{
+        position: absolute;
+    }
+    &__title{
+        font-size: 1.6rem;
+        font-weight: var(--fw-800);
+        color: var(--titles-color);
+    }
+    &__subtitle{
+        font-size: 1rem;
+        font-weight: var(--fw-600);
+        color: var(--text-color);
+    }
+}
+
+
+
+
+

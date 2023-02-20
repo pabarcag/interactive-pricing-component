@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive rating component</title>
+    <link rel="icon" href="/images/favicon-32x32.png" sizes="32x32" type="PNG/JPG">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <section class="titles">
+            <img src="/images/pattern-circles.svg" alt="" class="titles__img">
+            <h1 class="titles__title">Simple, traffic-based pricing</h1>
+            <h2 class="titles__subtitle">Sign-up for our 30-day trial. No credit card required.</h2>
+        </section>
+        <!--start form-->
+        <section class="card">
+            <form id="form">
+                
+                <fieldset class="form__plan">
+                    <!--This div have a grid propiertie to change the side of the paragraph-->
+                    <div class="form__grid">
+                        <div class="form__pageview">
+                            <p class="form__pagetext">10K Pageviews</p>
+                        </div>
+                        <div class="form__rangecontainer">
+                            <input type="range" class="form__range" id="range" name="range" min="1" max="5" step="1" value="1">
+                        </div>
+                        <div class="form__prices">
+                            <p class="form__price">$8.00</p>
+                            <p class="form__month">/month</p>
+                        </div>
+                    </div>
+                    <!--End of grid-->
+
+                    <!--Start the switch part-->
+                    <div class="form__info">
+                        <p class="form__monthly">Monthly Blilling</p>
+                        <div class="form__switch"><div class="form__circle"></div></div>
+                        <p class="form__yearly">Yearly Billing</p>
+                        <p class="form__discount">-25%</p>
+                    </div>
+                    <!--En switch part-->
+                </fieldset>
+                <!--start "footer" || list form-->
+                <fieldset class="form__list">
+                    <ul class="form__ul">
+                        <div class="form__adventages">
+                            <img src="/images/icon-check.svg" alt="">
+                            <li class="form__li">Unlimited Websites</li>
+                        </div>
+                        <div class="form__adventages">
+                            <img src="/images/icon-check.svg" alt="">
+                            <li class="form__li">100% data ownership</li>
+                        </div>
+                        <div class="form__adventages">
+                            <img src="/images/icon-check.svg" alt="">
+                            <li class="form__li">Email reports</li>
+                        </div>
+                    </ul>
+                    <div class="form__button">
+                        <button class="form__start">Start my trial</button>
+                    </div>
+                </fieldset>
+                <!--end "footer" || list form-->
+            </form>
+        </section>
+        <!--End form-->
+        <script src="/js/index.js"></script>
+</main>
+</body>
+</html>
