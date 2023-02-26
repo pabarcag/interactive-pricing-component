@@ -38,8 +38,8 @@ If the visitor switches the toggle to yearly billing, a 25% discount should be a
 
 ### Links
 
-- Solution URL: [Github code](https://github.com/pabarcag/ping-simple-page)
-- Live Site URL: [Live site](https://pabarcag.github.io/ping-simple-page/)
+- Solution URL: [Github code](https://github.com/pabarcag/interactive-pricing-component)
+- Live Site URL: [Live site](https://pabarcag.github.io/interactive-pricing-component/)
 
 
 ## My process
@@ -60,7 +60,7 @@ If the visitor switches the toggle to yearly billing, a 25% discount should be a
 
 I learned a lot in this challenge. Starting with CSS, I learned how to customize range input, since I had no idea that was possible, I also learned how to do layout effects with grid (change element positions which within the HTML flow is impossible), I learned how to create a simple switch. Enjoy doing the CSS.
 
-Now with Javascript, I feel that it is not the most optimal solution that I did. But, being the second challenge I do, it's not bad at all.
+Now with Javascript, I feel that it is not the most optimal solution that I did. But, being the third challenge I do, it's not bad at all.
 Here I learned a little about event delegation, control input type events, a simple switch validation.
 Although I'm not satisfied with what I did in logic, I have to keep learning!
 
